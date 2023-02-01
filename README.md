@@ -1,10 +1,6 @@
 # Spaceduck 🚀🦆
 
-[![Stars](https://img.shields.io/github/stars/pineapplegiant/spacedork?style=social)](https://img.shields.io/github/stars/pineapplegiant/spacedork?style=social)
-[![Fork](https://img.shields.io/github/forks/pineapplegiant/spacedork?style=social)](https://img.shields.io/github/forks/pineapplegiant/spacedork?style=social)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![Code Size](https://img.shields.io/github/languages/code-size/pineapplegiant/spacedork)](https://img.shields.io/github/languages/code-size/pineapplegiant/spacedork)
-[![Made with Neovim :)](https://img.shields.io/badge/madewith-nvim%E2%9D%A4%EF%B8%8F-red)](https://img.shields.io/badge/madewith-nvim%E2%9D%A4%EF%B8%8F-red)
 
 # This was forked from https://github.com/pineapplegiant/spaceduck for some custom colors. 
 
