@@ -1,7 +1,7 @@
 " ===============================================================
-" spaceduck
+" spacedork
 " 
-" URL: https://github.com/pineapplegiant/spaceduck
+" URL: https://github.com/pineapplegiant/spacedork
 " Author: Guillermo Rodriguez
 " License: MIT
 " Last Change: 2021/03/16 22:28
@@ -14,21 +14,21 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="spaceduck"
+let g:colors_name="spacedork"
 
 
 let Italic = ""
-if exists('g:spaceduck_italic')
+if exists('g:spacedork_italic')
   let Italic = "italic"
 endif
-let g:spaceduck_italic = get(g:, 'spaceduck_italic', 0)
+let g:spacedork_italic = get(g:, 'spacedork_italic', 0)
 
 let Bold = ""
-if exists('g:spaceduck_bold')
+if exists('g:spacedork_bold')
   let Bold = "bold"
 endif
 
-let g:spaceduck_bold = get(g:, 'spaceduck_bold', 0)
+let g:spacedork_bold = get(g:, 'spacedork_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#16172d ctermbg=234 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#16172d ctermbg=234 gui=NONE cterm=NONE
 hi Conceal guifg=#686f9a ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

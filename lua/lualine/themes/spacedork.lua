@@ -1,4 +1,4 @@
-local spaceduck = {}
+local spacedork = {}
 
 local colors = {
   black = '#0f111b',
@@ -13,32 +13,32 @@ local colors = {
   lightgray = '#c1c3cc'
 }
 
-spaceduck.normal = {
+spacedork.normal = {
   -- gui parameter is optional and behaves the same way as in vim's highlight command
   a = {bg = colors.gray, fg = colors.black, gui = 'bold'},
   b = {bg = colors.darkgray, fg = colors.lightgray},
   c = {bg = colors.black, fg = colors.lightgray}
 }
 
-spaceduck.insert = {
+spacedork.insert = {
   a = {bg = colors.green, fg = colors.black, gui = 'bold'},
   b = {bg = colors.darkgray, fg = colors.lightgray},
   c = {bg = colors.black, fg = colors.lightgray}
 }
 
-spaceduck.visual = {
+spacedork.visual = {
   a = {bg = colors.yellow, fg = colors.black, gui = 'bold'},
   b = {bg = colors.darkgray, fg = colors.lightgray},
   c = {bg = colors.black, fg = colors.lightgray}
 }
 
-spaceduck.replace = {
+spacedork.replace = {
   a = {bg = colors.purple, fg = colors.black, gui = 'bold'},
   b = {bg = colors.darkgray, fg = colors.lightgray},
   c = {bg = colors.black, fg = colors.lightgray}
 }
 
-spaceduck.command = {
+spacedork.command = {
   a = {bg = colors.blue, fg = colors.black, gui = 'bold'},
   b = {bg = colors.darkgray, fg = colors.lightgray},
   c = {bg = colors.black, fg = colors.lightgray}
@@ -46,13 +46,13 @@ spaceduck.command = {
 
 -- you can assign one colorscheme to another, if a colorscheme is
 -- undefined it falls back to normal
-spaceduck.terminal = spaceduck.normal
+spacedork.terminal = spacedork.normal
 
-spaceduck.inactive = {
+spacedork.inactive = {
   a = {bg = colors.black, fg = colors.lightgray, gui = 'bold'},
   b = {bg = colors.black, fg = colors.lightgray},
   c = {bg = colors.black, fg = colors.lightgray}
 }
 
--- lualine.theme = spaceduck
-return spaceduck
+-- lualine.theme = spacedork
+return spacedork

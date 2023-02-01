@@ -1,9 +1,9 @@
 # Spaceduck 🚀🦆
 
-[![Stars](https://img.shields.io/github/stars/pineapplegiant/spaceduck?style=social)](https://img.shields.io/github/stars/pineapplegiant/spaceduck?style=social)
-[![Fork](https://img.shields.io/github/forks/pineapplegiant/spaceduck?style=social)](https://img.shields.io/github/forks/pineapplegiant/spaceduck?style=social)
+[![Stars](https://img.shields.io/github/stars/pineapplegiant/spacedork?style=social)](https://img.shields.io/github/stars/pineapplegiant/spacedork?style=social)
+[![Fork](https://img.shields.io/github/forks/pineapplegiant/spacedork?style=social)](https://img.shields.io/github/forks/pineapplegiant/spacedork?style=social)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![Code Size](https://img.shields.io/github/languages/code-size/pineapplegiant/spaceduck)](https://img.shields.io/github/languages/code-size/pineapplegiant/spaceduck)
+[![Code Size](https://img.shields.io/github/languages/code-size/pineapplegiant/spacedork)](https://img.shields.io/github/languages/code-size/pineapplegiant/spacedork)
 [![Made with Neovim :)](https://img.shields.io/badge/madewith-nvim%E2%9D%A4%EF%B8%8F-red)](https://img.shields.io/badge/madewith-nvim%E2%9D%A4%EF%B8%8F-red)
 
 # This was forked from https://github.com/pineapplegiant/spaceduck for some custom colors. 
@@ -15,7 +15,7 @@ This theme was inspired from my incessant desire to feel like I'm in space when 
 
 If it looks ugly it's because I don't know what I'm doing pls help. If it's the sexiest thing you've ever seen, well then uhm.. you're welcome 😎
 
-**NOTE:** This repo hosts the Vim/Neovim spaceduck theme, to install other ports look for the [other ports below](#other-spaceduck-ports).
+**NOTE:** This repo hosts the Vim/Neovim spacedork theme, to install other ports look for the [other ports below](#other-spacedork-ports).
 
 # Colors Palette 🎨
 
@@ -23,36 +23,36 @@ If it looks ugly it's because I don't know what I'm doing pls help. If it's the 
 
 _Note: The Syntax color ID's are not an exhaustive & complete list._
 
-| ![Color Picker Boxes](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/eyedropper.png?raw=true)  | Palette      | Hex       | HSV/HSB       | RGB             | cterm/256 | SYN ID                                                     |
+| ![Color Picker Boxes](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/eyedropper.png?raw=true)  | Palette      | Hex       | HSV/HSB       | RGB             | cterm/256 | SYN ID                                                     |
 | ------------------------------------------------------------------------------------------------------------------ | ------------ | --------- | ------------- | --------------- | --------- | ---------------------------------------------------------- |
-| ![Red Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/red.png?raw=true)                  | Red          | `#e33400` | `14,100,89`   | `227, 52, 0`    | `166`     | Error, Ignore                                              |
-| ![Orange Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/orange.png?raw=true)            | Orange       | `#e39400` | `39,100,89`   | `227, 148, 0`   | `172`     | Exception, Keyword, SpecialChar                            |
-| ![Green Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/green.png?raw=true)              | Green        | `#5ccc96` | `151,55,80`   | `92, 204, 150`  | `78`      | Statement, Underlined, Function, Include, Conditonal       |
-| ![Yellow Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/yellow.png?raw=true)            | Yellow       | `#f2ce00` | `51,100,95`   | `242, 206, 0`   | `220`     | Constant, Boolean, Character, Float, Number                |
-| ![Purple Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/purple.png?raw=true)            | Purple       | `#b3a1e6` | `256,30,90`   | `179, 161, 230` | `146`     | PreProc, Special, Tag, Debug, StorageClass                 |
-| ![Purple2 Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/purple2.png?raw=true)          | Purple2      | `#7a5ccc` | `256,55,80`   | `122, 92, 204`  | `98`      | Title, Define, Macro, Define, Precondit, (Operator)        |
-| ![Dark Purple Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/darkPurple.png?raw=true)   | Dark Purple  | `#30365F` | `232, 49, 37` | `48, 54, 95`    | `237`     | Comment, LineNR, MatchParen, EndOfBuffer, Pmenu, IncSearch |
-| ![Dark Purple2 Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/darkPurple2.png?raw=true) | Dark Purple2 | `#686f9a` | `232,32,60`   | `104, 111, 154` | `60`      | Todo, PmenuSbar, Conceal, Search                           |
-| ![Cyan Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/cyan.png?raw=true)                | Cyan         | `#00a3cc` | `192,100,80`  | `0, 163, 204`   | `38`      | Identifier, String, Structure, Typedef                     |
-| ![Magenta Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/magenta.png?raw=true)          | Magenta      | `#ce6f8f` | `340,46,81`   | `206, 111, 143` | `168`     | Type, Delimeter, Operator                                  |
+| ![Red Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/red.png?raw=true)                  | Red          | `#e33400` | `14,100,89`   | `227, 52, 0`    | `166`     | Error, Ignore                                              |
+| ![Orange Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/orange.png?raw=true)            | Orange       | `#e39400` | `39,100,89`   | `227, 148, 0`   | `172`     | Exception, Keyword, SpecialChar                            |
+| ![Green Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/green.png?raw=true)              | Green        | `#5ccc96` | `151,55,80`   | `92, 204, 150`  | `78`      | Statement, Underlined, Function, Include, Conditonal       |
+| ![Yellow Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/yellow.png?raw=true)            | Yellow       | `#f2ce00` | `51,100,95`   | `242, 206, 0`   | `220`     | Constant, Boolean, Character, Float, Number                |
+| ![Purple Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/purple.png?raw=true)            | Purple       | `#b3a1e6` | `256,30,90`   | `179, 161, 230` | `146`     | PreProc, Special, Tag, Debug, StorageClass                 |
+| ![Purple2 Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/purple2.png?raw=true)          | Purple2      | `#7a5ccc` | `256,55,80`   | `122, 92, 204`  | `98`      | Title, Define, Macro, Define, Precondit, (Operator)        |
+| ![Dark Purple Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/darkPurple.png?raw=true)   | Dark Purple  | `#30365F` | `232, 49, 37` | `48, 54, 95`    | `237`     | Comment, LineNR, MatchParen, EndOfBuffer, Pmenu, IncSearch |
+| ![Dark Purple2 Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/darkPurple2.png?raw=true) | Dark Purple2 | `#686f9a` | `232,32,60`   | `104, 111, 154` | `60`      | Todo, PmenuSbar, Conceal, Search                           |
+| ![Cyan Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/cyan.png?raw=true)                | Cyan         | `#00a3cc` | `192,100,80`  | `0, 163, 204`   | `38`      | Identifier, String, Structure, Typedef                     |
+| ![Magenta Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/magenta.png?raw=true)          | Magenta      | `#ce6f8f` | `340,46,81`   | `206, 111, 143` | `168`     | Type, Delimeter, Operator                                  |
 
 ## Special Colors
 
-| ![Color Picker Boxes](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/eyedropper.png?raw=true)          | Palette          | Hex       | HSV/HSB       | RGB             | cterm/256 | SYN ID               |
+| ![Color Picker Boxes](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/eyedropper.png?raw=true)          | Palette          | Hex       | HSV/HSB       | RGB             | cterm/256 | SYN ID               |
 | -------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------- | ------------- | --------------- | --------- | -------------------- |
-| ![Background Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/background.png?raw=true)            | Background       | `#0f111b` | `230,44,11`   | `15, 17, 27`    | `233`     | Background           |
-| ![Foreground Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/foreground.png?raw=true)            | Foreground       | `#ecf0c1` | `65,20,94`    | `236, 240, 193` | `255`     | Foregrond, Delimiter |
-| ![Visual Selection Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/visualSelection.png?raw=true) | Visual Selection | `#1b1c36` | `238, 50, 21` | `27, 28, 54`    | `234`     | Visual               |
-| ![Cursor Line Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/cursorLine.png?raw=true)           | Cursor Line      | `#16172d` | `237,51,18`   | `22, 23, 45`    | `234`     | CursorLine           |
+| ![Background Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/background.png?raw=true)            | Background       | `#0f111b` | `230,44,11`   | `15, 17, 27`    | `233`     | Background           |
+| ![Foreground Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/foreground.png?raw=true)            | Foreground       | `#ecf0c1` | `65,20,94`    | `236, 240, 193` | `255`     | Foregrond, Delimiter |
+| ![Visual Selection Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/visualSelection.png?raw=true) | Visual Selection | `#1b1c36` | `238, 50, 21` | `27, 28, 54`    | `234`     | Visual               |
+| ![Cursor Line Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/cursorLine.png?raw=true)           | Cursor Line      | `#16172d` | `237,51,18`   | `22, 23, 45`    | `234`     | CursorLine           |
 
 ## Coloration Colors
 
-| ![Color Picker Boxes](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/eyedropper.png?raw=true) | Palette    | Hex       | HSV/HSB     | RGB             | cterm/256 | SYN ID             |
+| ![Color Picker Boxes](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/eyedropper.png?raw=true) | Palette    | Hex       | HSV/HSB     | RGB             | cterm/256 | SYN ID             |
 | ----------------------------------------------------------------------------------------------------------------- | ---------- | --------- | ----------- | --------------- | --------- | ------------------ |
-| ![Grey Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/grey.png?raw=true)               | Grey       | `#818596` | `229,14,59` | `129, 133, 150` | `102`     | Cursor, Tabline    |
-| ![Grey 2 Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/grey2.png?raw=true)            | Grey 2     | `#c1c3cc` | `229,5,80`  | `193, 195, 204` | `251`     | TabLineSel         |
-| ![Pure White Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/white.png?raw=true)        | Pure White | `#ffffff` | `0,0,100`   | `255, 255, 255` | `15`      | Search, Todo       |
-| ![Pure Black Color](https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/black.png?raw=true)        | Pure Black | `#000000` | `0,0,0`     | `0, 0, 0`       | `0`       | VertSplit, TabLine |
+| ![Grey Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/grey.png?raw=true)               | Grey       | `#818596` | `229,14,59` | `129, 133, 150` | `102`     | Cursor, Tabline    |
+| ![Grey 2 Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/grey2.png?raw=true)            | Grey 2     | `#c1c3cc` | `229,5,80`  | `193, 195, 204` | `251`     | TabLineSel         |
+| ![Pure White Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/white.png?raw=true)        | Pure White | `#ffffff` | `0,0,100`   | `255, 255, 255` | `15`      | Search, Todo       |
+| ![Pure Black Color](https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/black.png?raw=true)        | Pure Black | `#000000` | `0,0,0`     | `0, 0, 0`       | `0`       | VertSplit, TabLine |
 
 ## Current Language Support
 
@@ -91,7 +91,7 @@ And add this to your vimrc/init.vim configuration file:
       set termguicolors
     endif
 
-   colorscheme spaceduck
+   colorscheme spacedork
 ```
 
 Or manually add the color theme to your 'runtimepath' for the file.
@@ -101,21 +101,21 @@ Or manually add the color theme to your 'runtimepath' for the file.
 - [Airline](https://github.com/vim-airline/vim-airline)
 
 ```viml
-  let g:airline_theme = 'spaceduck'
+  let g:airline_theme = 'spacedork'
 ```
 
 - [Lightline](https://github.com/itchyny/lightline.vim)
 
 <center>
-  <img  src="https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/normal.png?raw=true" alt="lightline normal mode screenshot">
-  <img  src="https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/insert.png?raw=true" alt="lightline insert mode screenshot">
-  <img  src="https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/visual.png?raw=true" alt="lightline visual mode screenshot">
-  <img  src="https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/replace.png?raw=true" alt="lightline replace mode screenshot">
+  <img  src="https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/normal.png?raw=true" alt="lightline normal mode screenshot">
+  <img  src="https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/insert.png?raw=true" alt="lightline insert mode screenshot">
+  <img  src="https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/visual.png?raw=true" alt="lightline visual mode screenshot">
+  <img  src="https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/replace.png?raw=true" alt="lightline replace mode screenshot">
 </center>
 
 ```viml
     let g:lightline = {
-          \ 'colorscheme': 'spaceduck',
+          \ 'colorscheme': 'spacedork',
           \ }
 ```
 
@@ -131,12 +131,12 @@ Don't be afraid of the vim documentation either for more information, like for m
   <img  src="https://user-images.githubusercontent.com/32819563/111935037-3ab41d80-8a88-11eb-8797-2b6db14cbff8.png" alt="lualine replace mode screenshot">
 </center>
 
-You only really need `'theme': 'spaceduck'`, but this is what I have in my vimrc:
+You only really need `'theme': 'spacedork'`, but this is what I have in my vimrc:
 
 ```viml
   let g:lualine = {
       \'options' : {
-      \  'theme' : 'spaceduck',
+      \  'theme' : 'spacedork',
       \  'section_separators' : ['', ''],
       \  'component_separators' : ['', ''],
       \  'icons_enabled' : v:true,
@@ -169,17 +169,17 @@ You only really need `'theme': 'spaceduck'`, but this is what I have in my vimrc
 ## Terminal
 
 Terminal install can be found at this repo:
-[https://github.com/pineapplegiant/spaceduck-terminal](https://github.com/pineapplegiant/spaceduck-terminal)
+[https://github.com/pineapplegiant/spacedork-terminal](https://github.com/pineapplegiant/spacedork-terminal)
 
 ## VSCode
 
 Vscode theme can be found at this repo:
-[https://github.com/tathran/spaceduck-vscode](https://github.com/tathran/spaceduck-vscode)
+[https://github.com/tathran/spacedork-vscode](https://github.com/tathran/spacedork-vscode)
 
 ## Emacs
 
 Emacs theme can be found at this repo:
-[https://github.com/tathran/spaceduck-emacs](https://github.com/tathran/spaceduck-emacs)
+[https://github.com/tathran/spacedork-emacs](https://github.com/tathran/spacedork-emacs)
 
 ## Slack
 
@@ -190,7 +190,7 @@ Emacs theme can be found at this repo:
 
 ## Tmux
 
-Checkout some tmux config inspiration here at [the terminal repo](https://github.com/pineapplegiant/spaceduck-terminal/tree/main/tmux). Or if you're in a rush you can use this basic one:
+Checkout some tmux config inspiration here at [the terminal repo](https://github.com/pineapplegiant/spacedork-terminal/tree/main/tmux). Or if you're in a rush you can use this basic one:
 
 ```tmux
   # Basic color support setting
@@ -246,21 +246,21 @@ And in your `.bash_profile or .zshrc`:
 
 <center>
   <strong>COC-Explorer, HTML, Vista</strong>
-  <img  src="https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/html.png?raw=true" alt="Screenshot of spaceduck theme using HTML">
+  <img  src="https://github.com/pineapplegiant/spacedork-terminal/blob/main/img/html.png?raw=true" alt="Screenshot of spacedork theme using HTML">
   <br>
   <br>
 </center>
 
 <center>
   <strong><a href="https://imgur.com/a/n4azoPS">Credit to u/addisonbean</a> for Arch Desktop Inspo</strong>
-  <img  src="https://i.imgur.com/oZozJPv.png" alt="Screenshot of spaceduck theme on Arch">
+  <img  src="https://i.imgur.com/oZozJPv.png" alt="Screenshot of spacedork theme on Arch">
   <br>
   <br>
 </center>
 
 <center>
   <strong><a href="https://imgur.com/FWwjYqR">Credit to u/malthusthomas</a> for SPT on terminal</strong>
-  <img  src="https://i.imgur.com/FWwjYqR.png" alt="Screenshot of spaceduck theme on SPT">
+  <img  src="https://i.imgur.com/FWwjYqR.png" alt="Screenshot of spacedork theme on SPT">
   <br>
   <br>
 </center>
@@ -304,4 +304,4 @@ This will show you the syntax ID to where we can then modify the color of that w
 
 ### TODO
 
-Check out my [Todo list](https://github.com/pineapplegiant/spaceduck/projects/1)
+Check out my [Todo list](https://github.com/pineapplegiant/spacedork/projects/1)
